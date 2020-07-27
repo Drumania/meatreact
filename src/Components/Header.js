@@ -1,8 +1,9 @@
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <>
+    <header>
       <div>
         <h1>Logo</h1>
         <h2>
@@ -28,7 +29,7 @@ const Header = () => {
           </a>
         </li>
       </ul>
-    </>
+    </header>
   );
 };
 

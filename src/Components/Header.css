@@ -1,0 +1,101 @@
+
+header {
+  width: 100%;
+  background: 
+    linear-gradient( rgba(249, 249, 249, 0), rgba(249, 249, 249, 1) ),
+    url("../img/hero-background.jpg");    
+  background-position:  
+    center bottom,
+    center center;
+  background-repeat: no-repeat;
+  min-height: 940px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+header h1,
+header h2,
+header ul {
+  padding: 60px;
+}
+
+header h2 {
+  background: transparent url("../img/hero-shape.png") no-repeat bottom right;
+  height: 270px;
+  width: 740px;
+}
+
+header ul li {  
+  display: inline-block;
+  margin-right: 30px;
+}
+
+header ul li a {
+  height: 62px;
+  width: 62px;  
+  display: block;
+  text-indent: -9999px;
+}
+
+header ul li:nth-child(1) a {
+  border: 3px solid var(--blue-color);
+  border-radius: 50%;
+  background: transparent url("../img/facebook-icon.svg") no-repeat center center;
+}
+
+header ul li:nth-child(2) a {
+  border: 3px solid var(--red-color);
+  border-radius: 50%;
+  background: transparent url("../img/instagram-icon.svg") no-repeat center center;
+}
+
+header ul li:nth-child(3) a {
+  border: 3px solid var(--gold-color);
+  border-radius: 50%;
+  background: transparent url("../img/youtube-icon.svg") no-repeat center center;
+}
+
+
+@media (orientation: portrait) {
+  header {
+    height: 400px;
+    min-height: unset;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 30px;    
+  }
+
+  header h1,
+  header h2,
+  header ul {
+    padding: 20px;
+  }
+
+  header h2{
+    background: transparent url('../img/hero-shape.png') no-repeat bottom right / 160%;
+    height: 70px;
+    width: 170px;
+  }
+
+  header ul {
+    width: 50px;
+  }
+
+  header ul li a {
+    height: 42px;
+    width: 42px;
+    display: block;
+    text-indent: -9999px;
+    margin-bottom: 20px;    
+  }
+
+  
+
+}

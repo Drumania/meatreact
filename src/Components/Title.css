@@ -1,0 +1,50 @@
+
+.container .wrap-h3 {
+  text-align: center;
+  height: 120px;
+  position: relative;
+  margin: 75px 0;
+}
+
+.container .wrap-h3 h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  z-index: 200;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container .wrap-h3 img {
+  opacity: 0.3;
+  position: absolute;
+  left: 50%;
+  margin-left: -232px;
+  top: 30px;
+  z-index: 100;
+  width: 464px;
+}
+
+@media (orientation: portrait) {
+  .container .wrap-h3 {
+    height: 50px;
+  }
+
+  .container .wrap-h3 h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .container .wrap-h3 img {
+    opacity: 0.3;
+    position: absolute;
+    left: 50%;
+    margin-left: -232px;
+    top: 0px;
+    z-index: 100;
+    width: 464px;
+  }
+
+}
